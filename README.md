@@ -23,9 +23,9 @@ Push to `main`. GitHub Pages serves the root.
 - `assets/william-bransford.jpg` — founder portrait (borrowed from Space Studios).
 - `CNAME` — custom domain marker, activated at DNS cutover.
 
-## Placeholders to replace
-- **Advisory application** (`advisory/index.html`): `APPLICATION_URL_PLACEHOLDER` → Google Form URL once created.
-- **Build Club payment** (`build-club/index.html`): `STRIPE_PAYMENT_LINK_PLACEHOLDER` → live Stripe Payment Link once product is created.
+## Wiring to do post-approval
+- **Advisory application**: `advisory/index.html` CTA currently opens a pre-filled `mailto:william@spacestudios.us` — swap to Google Form URL once created.
+- **Build Club payment**: `build-club/index.html` CTA currently opens `mailto:william@spacestudios.us` ("early access list") — swap to live Stripe Payment Link once product is created.
 
 ## Brand direction
 - **Shared with Space Studios:** Inter + JetBrains Mono, hairline grids, button system, section structure.
